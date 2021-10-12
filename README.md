@@ -9,7 +9,11 @@ To see your changes, first check that Hugo is installed by running `hugo version
 
 ## Deploying
 
+<!--
+OLD INSTRUCTIONS USING GITHUB ACTION
 To deploy using GitHub pages, simply push the changes into the `main` branch — the GitHub workflow will run Hugo, build the page and serve the static site from the `gh-pages` branch.
+-->
+To build the site and deploy it using GitHub pages, run `hugo` and commit and push the changes. With the current settings in the `config.toml` file, this builds the static site inside the `docs` subdirectory, which is set as the source for GitHub pages deployment.
 
 Once [Codeberg Pages](https://codeberg.page/) support custom domains, I'll try to move the hosting from GitHub pages to there.
 
