@@ -10,7 +10,7 @@ publishDir = "docs"
 # googleAnalytics = ""
 
 # Copyright
-copyright = "&copy; 2021 Adam Sroka"
+copyright = "&copy; 2022 Adam Sroka"
 
 [params]
 
