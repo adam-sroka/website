@@ -1,6 +1,6 @@
 # Adam's Website
 
-Hey 👋, welcome to the repo of my personal website!
+Hey 👋, welcome to the repo of my personal website built with [Hugo](https://gohugo.io)!
 
 Feel free to poke around or get in touch 😊.
 
