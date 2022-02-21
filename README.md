@@ -22,7 +22,7 @@ To build the site and deploy it using GitHub pages, run `hugo` and commit and pu
 ### Codeberg Pages
 _currently deploys to adam.sr_
 
-To build the site and deploy it using Codeberg pages, run `hugo` and commit and push the changes. Then, copy the static files from the `docs` subdirectory, change branch to `pages` using `git checkout pages`, paste the static files, stage them, commit them, and push. 
+To build the site and deploy it using Codeberg pages, run `hugo` and commit and push the changes. Then, copy the static files from the `docs` subdirectory, change branch to `pages` using `git checkout pages`, paste the static files, stage them, commit them, and push (EDIT: this should be force-pushed, see [this](https://codeberg.org/Codeberg/pages-server/issues/59#issuecomment-378868)).
 
 This is quite a bad workflow, so try to modify [@momar's script](https://codeberg.org/Codeberg/Community/issues/410#issuecomment-198362) to work with Hugo (see [this attempt](https://codeberg.org/Codeberg/Community/issues/410#issuecomment-372490)), and keep an eye on [this](https://codeberg.org/Codeberg/pages-server/issues/51), [this](https://codeberg.org/Codeberg/Community/issues/410) and [this](https://codeberg.org/Codeberg/pages-server/issues/59) issue.
 
