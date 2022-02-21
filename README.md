@@ -16,10 +16,12 @@ To deploy using GitHub pages, simply push the changes into the `main` branch —
 
 ### GitHub Pages
 _currently deploys to adamsroka.io_
+
 To build the site and deploy it using GitHub pages, run `hugo` and commit and push the changes. With the current settings in the `config.toml` file, this builds the static site inside the `docs` subdirectory, which is set as the source for GitHub pages deployment.
 
 ### Codeberg Pages
 _currently deploys to adam.sr_
+
 To build the site and deploy it using Codeberg pages, run `hugo` and commit and push the changes. Then, copy the static files from the `docs` subdirectory, change branch to `pages` using `git checkout pages`, paste the static files, stage them, commit them, and push. 
 
 This is quite a bad workflow, so try to modify [@momar's script](https://codeberg.org/Codeberg/Community/issues/410#issuecomment-198362) to work with Hugo (see [this attempt](https://codeberg.org/Codeberg/Community/issues/410#issuecomment-372490)), and keep an eye on [this](https://codeberg.org/Codeberg/pages-server/issues/51), [this](https://codeberg.org/Codeberg/Community/issues/410) and [this](https://codeberg.org/Codeberg/pages-server/issues/59) issue.
