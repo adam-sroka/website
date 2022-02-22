@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://adamsroka.io"
+baseURL = "https://adam.sr"
 languageCode = "en-US"
 title = "Adam Sroka"
 theme = "hugo-split-theme"
