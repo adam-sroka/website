@@ -9,31 +9,35 @@ To see your changes, first check that Hugo is installed by running `hugo version
 
 ## Deploying
 
+### GitHub Pages
+_currently deploys to adamsroka.io_
+
 <!--
 OLD INSTRUCTIONS USING GITHUB ACTION
 To deploy using GitHub pages, simply push the changes into the `main` branch — the GitHub workflow will run Hugo, build the page and serve the static site from the `gh-pages` branch.
 -->
-
-### GitHub Pages
-_currently deploys to adamsroka.io_
 
 To build the site and deploy it using GitHub pages, run `hugo` and commit and push the changes. With the current settings in the `config.toml` file, this builds the static site inside the `docs` subdirectory, which is set as the source for GitHub pages deployment.
 
 ### Codeberg Pages
 _currently deploys to adam.sr_
 
-To build the site and deploy it using Codeberg pages, run `hugo` and commit and push the changes. Then, copy the static files from the `docs` subdirectory, change branch to `pages` using `git checkout pages`, paste the static files, stage them, commit them, and push (EDIT: this should be force-pushed, see [this](https://codeberg.org/Codeberg/pages-server/issues/59#issuecomment-378868)).
+To build the site and deploy it using Codeberg pages, make sure that your working directory is the directory of this git repository, i.e. `website`, and run the `deploy.sh` script:
 
-This is quite a bad workflow, so try to modify [@momar's script](https://codeberg.org/Codeberg/Community/issues/410#issuecomment-198362) to work with Hugo (see [this attempt](https://codeberg.org/Codeberg/Community/issues/410#issuecomment-372490)), and keep an eye on [this](https://codeberg.org/Codeberg/pages-server/issues/51), [this](https://codeberg.org/Codeberg/Community/issues/410) and [this](https://codeberg.org/Codeberg/pages-server/issues/59) issue.
+```bash
+bash deploy.sh
+```
+
+This builds the Hugo site in a `build` directory and force pushes the built files of the static site to the `pages` branch of this repository, where Codeberg hosts the static site from. It takes a couple of minutes for Codeberg to update the site.
 
 ## TODOs
 - [ ] investigate browser cross-site cookies warning to https://adam.codeberg.page (maybe it's because of how I configured the DNS records?)
 - [ ] make a 301 permanent redirect from `adamsroka.io` to `adam.sr`
 - [ ] change `baseURL` in `config.toml` to `https://adam.sr`
 - [ ] remove `CNAME` file from `static` dir
+- [ ] remove the `docs` directory and don't check it into version control again
 - [ ] change repo links to `adam.sr` on Codeberg and GitHub
-- [ ] update Codeberg pages deployment instructions
-- [ ] hopefully make a tutorial and update the Codeberg docs, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)?
+- [ ] Make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)?
 
 ## Acknowledgements
 
