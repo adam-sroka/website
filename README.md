@@ -33,11 +33,10 @@ This builds the Hugo site in a `build` directory and force pushes the built file
 ## TODOs
 - [ ] investigate browser cross-site cookies warning to https://adam.codeberg.page (maybe it's because of how I configured the DNS records?)
 - [ ] make a 301 permanent redirect from `adamsroka.io` to `adam.sr`
-- [ ] change `baseURL` in `config.toml` to `https://adam.sr`
 - [ ] remove `CNAME` file from `static` dir
 - [ ] remove the `docs` directory and don't check it into version control again
-- [ ] change repo links to `adam.sr` on Codeberg and GitHub
-- [ ] Make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)?
+- [ ] change repo links to `adam.sr` on Codeberg and GitHub and all other places
+- [ ] make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)?
 
 ## Acknowledgements
 
