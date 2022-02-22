@@ -30,6 +30,7 @@ This is quite a bad workflow, so try to modify [@momar's script](https://codeber
 - [ ] investigate browser cross-site cookies warning to https://adam.codeberg.page (maybe it's because of how I configured the DNS records?)
 - [ ] make a 301 permanent redirect from `adamsroka.io` to `adam.sr`
 - [ ] change `baseURL` in `config.toml` to `https://adam.sr`
+- [ ] remove `CNAME` file from `static` dir
 - [ ] change repo links to `adam.sr` on Codeberg and GitHub
 - [ ] update Codeberg pages deployment instructions
 - [ ] hopefully make a tutorial and update the Codeberg docs, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)?
