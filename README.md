@@ -37,6 +37,7 @@ This builds the Hugo site in a `build` directory and force pushes the built file
 - [ ] remove the `docs` directory and don't check it into version control again
 - [ ] change repo links to `adam.sr` on Codeberg and GitHub and all other places
 - [ ] make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)?
+- [ ] check @Tealk's [GitHook](https://codeberg.org/Tealk/Git-Hooks_examples/src/branch/master/pre-push%20git-brench%20hugo) based on my deploy script
 
 ## Acknowledgements
 
