@@ -16,7 +16,7 @@ remote_origin_url=$(git config --get remote.origin.url)
 hugo --destination $build_directory
 
 # initialize a git repo in build_directory and checkout to build_branch
-cd $build_directory
+cd $build_directory || exit
 git init
 git checkout -b $build_branch
 
@@ -27,5 +27,5 @@ git add -- . ':!.gitignore'
 
 # commit static site files and force push to build_branch of the origin
 git commit -m "build: update static site"
-git remote add origin $remote_origin_url
+git remote add origin "$remote_origin_url"
 git push --force origin $build_branch
