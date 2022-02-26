@@ -4,7 +4,7 @@ languageCode = "en-US"
 title = "Adam Sroka"
 theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "sitemap"]
-publishDir = "docs"
+publishDir = "build"
 
 # Enter your tracking code to enable Google Analytics - No, fuck Google Analytics
 # googleAnalytics = ""
