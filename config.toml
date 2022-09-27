@@ -66,8 +66,13 @@ copyright = "&copy; 2022 Adam Sroka"
         url = "/cv.pdf"
 
       [[params.links.list2.link]]
-        text = "LinkedIn"
-        url = "https://www.linkedin.com/in/adam-sroka/"
+        text = "Portfolio"
+        url = "/portfolio"
+
+# Old LinkedIn link
+#      [[params.links.list2.link]]
+#        text = "LinkedIn"
+#        url = "https://www.linkedin.com/in/adam-sroka/"
 
 
   # Links List #3
