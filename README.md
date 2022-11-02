@@ -29,9 +29,8 @@ bash deploy.sh
 This builds the Hugo site in a `build` directory and force pushes the built files of the static site to the `pages` branch of this repository, where Codeberg hosts the static site from. It takes a couple of minutes for Codeberg to update the site.
 
 ## TODOs
-- [ ] investigate browser cross-site cookies warning to https://adam.codeberg.page (maybe it's because of how I configured the DNS records?)
-- [ ] make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)?
-- [ ] check @Tealk's [GitHook](https://codeberg.org/Tealk/Git-Hooks_examples/src/branch/master/pre-push%20git-brench%20hugo) based on my deploy script
+- [ ] make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)? EDIT: This seems to be already done [here](https://codeberg.org/Codeberg-CI/examples) so:
+- [ ] Use a Codeberg-CI (Woodpecker) pipeline for deployment, first have a look at [this](https://codeberg.org/Codeberg-CI/examples/src/branch/main/Hugo/hugo.yml)
 
 ## Acknowledgements
 
