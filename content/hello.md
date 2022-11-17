@@ -4,7 +4,7 @@ date: 2022-11-02T16:51:21Z
 draft: false
 ---
 
-![](/images/cat_blog.jpg)
+![I should buy a boat cat meme change to "I should start a blog"](/images/cat_blog.jpg)
 
 It has finally happened.
 
