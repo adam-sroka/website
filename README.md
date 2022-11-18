@@ -34,7 +34,7 @@ This builds the Hugo site in a `build` directory and force pushes the built file
 
 ## Acknowledgements
 
-The website is based on the [Split](https://onepagelove.com/split) Hugo theme by [One Page Love](https://onepagelove.com/).
+The website is based on the [Congo](https://git.io/hugo-congo/) Hugo theme.
 
 ## License
 
