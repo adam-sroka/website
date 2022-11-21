@@ -26,7 +26,7 @@ To build the site and deploy it to [adam.sr](https://adam.sr) using [Codeberg pa
 bash deploy.sh
 ```
 
-This builds the Hugo site in a `build` directory and force pushes the built files of the static site to the `pages` branch of this repository, where Codeberg hosts the static site from. It takes a couple of minutes for Codeberg to update the site.
+This builds the Hugo site in a `build` directory and force pushes the built files of the static site to the `pages` branch of this repository, where Codeberg hosts the static site from. It might take a couple of minutes for Codeberg to update the site.
 
 ## TODOs
 - [ ] make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)? EDIT: This seems to be already done [here](https://codeberg.org/Codeberg-CI/examples) so:
