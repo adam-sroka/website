@@ -13,7 +13,7 @@ fi
 remote_origin_url=$(git config --get remote.origin.url)
 
 # generate hugo static site to `build` directory
-hugo --destination $build_directory
+hugo --minify --destination $build_directory
 
 # initialize a git repo in build_directory and checkout to build_branch
 cd $build_directory || exit
