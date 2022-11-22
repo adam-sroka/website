@@ -28,6 +28,8 @@ bash deploy.sh
 
 This builds the Hugo site in a `build` directory and force pushes the built files of the static site to the `pages` branch of this repository, where Codeberg hosts the static site from. It might take a couple of minutes for Codeberg to update the site.
 
+If Hugo fails to build the site and displays a warning message, try cleaning Hugo module cache by `hugo mod clean` and refetch the Congo module by `hugo mod get -u`.
+
 ## TODOs
 - [ ] make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)? EDIT: This seems to be already done [here](https://codeberg.org/Codeberg-CI/examples) so:
 - [ ] Use a Codeberg-CI (Woodpecker) pipeline for deployment, first have a look at [this](https://codeberg.org/Codeberg-CI/examples/src/branch/main/Hugo/hugo.yml) and [this](https://dminca.codeberg.page/posts/moved-to-codeberg-pages/)
