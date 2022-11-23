@@ -3,16 +3,12 @@ title: "Projects"
 description: "Stuff I've built or broken!"
 cascade:
   showReadingTime: false
+  groupByYear: false
+  showDate: false
+  showSummary: true
+  showTaxonomies: true
 ---
-Will be ready soon… In the meantime, check out my [Codeberg](https://codeberg.org/adam) and [GitHub](https://github.com/adam-sroka/) profiles.
 
-<!-- TODO: maybe rename to projects -->
-<!-- 
----
-title: "Projects"
-description: "Learn about some of my projects."
-cascade:
-  showReadingTime: false
----
-This section contains all my current projects.
--->
+Here's a selection of things that I've built or worked on as a core team member 👨‍💻🔨.
+
+For my other contributions and stuff still in progress, check out my [GitHub](https://github.com/adam-sroka/) and [Codeberg](https://codeberg.org/adam) profiles {{< icon "github" >}}{{< icon "codeberg_blue" >}}.
