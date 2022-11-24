@@ -7,8 +7,6 @@ rtl = false
 
 title = "Adam Sroka"
 description = "Welcome to Adam Sroka's website!"
-copyright = "[© 2022 Adam Sroka](https://adam.sr/), [licensed under CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
-# TODO change the "Powered by Hugo & Congo" to include site source
 # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"

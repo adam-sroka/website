@@ -22,7 +22,11 @@
         {{- else }}
         &copy;
         {{ now.Format "2006" }}
-        {{ .Site.Author.name | markdownify | emojify }}
+        <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="/about/" target="_blank"
+          rel="noopener noreferrer">Adam Sroka,</a>
+        <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA
+          4.0-licensed</a>
         {{- end }}
       </p>
       {{ end }}
