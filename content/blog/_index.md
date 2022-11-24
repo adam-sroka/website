@@ -8,7 +8,7 @@ cascade:
 ---
 My thoughts, ideas, stories and pretty much anything 🙌!
 
-You can filter articles by clicking on a particular tag, see [all tags here](/tags), or search by clicking on the magnifier icon in the top right corner.
+You can filter articles by clicking on a particular topic tag, browse [all topics here](/topics), or search by clicking on the magnifier icon in the top right corner.
 
 If you like it, subscribe via [email](https://buttondown.email/as) or [RSS](/index.xml)!
 

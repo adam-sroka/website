@@ -3,7 +3,7 @@ title: "MacOS Stores a Copy of Everything You Print Forever - Really?"
 date: 2022-11-17
 summary: "An exploration into printing and recovering previously printed files on MacOS."
 # TODO: description?
-tags: ["tech", "mac", "printing", "privacy"]
+topics: ["tech", "mac", "printing", "privacy"]
 ---
 
 

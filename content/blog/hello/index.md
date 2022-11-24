@@ -4,7 +4,7 @@ date: 2022-11-02
 # description: "TODO."
 # TODO: find out what the description field does
 summary: "It has finally happened."
-tags: ["blogging", "introduction", "misc"]
+topics: ["blogging", "introduction", "misc"]
 ---
 
 ![I should buy a boat cat meme changed to "I should start a blog"](./cat_blog.jpg)
