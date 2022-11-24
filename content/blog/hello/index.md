@@ -1,9 +1,9 @@
 ---
 title: "Hello World!"
 date: 2022-11-02
-description: "It has finally happened."
-# TODO: change summary and display
-summary: "Learn more about TODO me and why I am starting this blog."
+# description: "TODO."
+# TODO: find out what the description field does
+summary: "It has finally happened."
 tags: ["blogging", "introduction", "misc"]
 ---
 
