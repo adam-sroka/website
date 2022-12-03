@@ -1,0 +1,38 @@
+pipeline:
+  # Build hugo static files
+  build:
+    image: klakegg/hugo
+    commands:
+      - hugo mod clean
+      - hugo mod get -u
+      - hugo --minify --destination build
+    when:
+      event: [ pull_request, push ]
+
+  publish:
+    image: bitnami/git
+    # Must be set in Woodpecker configuration
+    secrets: [ codeberg_token ]
+    environment:
+      - HUGO_OUTPUT=build # TODO
+    commands:
+      # Git configuration
+      - git config --global user.email "woodpecker-bot@no-reply.eu"
+      - git config --global user.name "Woodpecker CI"
+      # - git clone -b pages https://$CODEBERG_TOKEN@codeberg.org/$CI_REPO.git $CI_REPO_NAME
+      # Clone the pages branch (with static site output) into website dir
+      - git clone -b pages https://codeberg.org/adam/website.git
+      # Copy build step output to static site output folder
+      - cp -a build/* website/
+      # Needed for custom domains
+      # - cp .domains $CI_REPO_NAME || true # Ignore if it doesn't exist
+      # Commit and push all static files with pipeline started timestamp
+      - cd website || exit
+      - git remote set-url origin https://$CODEBERG_TOKEN@codeberg.org/adam/website.git
+      - git add --all
+      - git commit -m "Woodpecker CI deploy ${CI_COMMIT_SHA}"
+      - git push -u origin pages
+    when:
+      # run when new push into main branch (with hugo site source)
+      event: push
+      branh: main
