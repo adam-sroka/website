@@ -133,7 +133,7 @@ When printing somewhere else, e.g. in your work or school/university printers, y
 
 Unlike 3D printers, there [doesn't seem to by any commonly available open-source printers](https://www.quora.com/Is-there-any-open-source-hardware-for-inkjet-laserjet-printers-and-multi-function-devices/answer/Steve-Owens-6), which means that you have no idea what is your printer actually doing, and it probably isn't anything with your best interest in mind (who would've thought!).
 
-As pointed out by NGOs like [the EFF years ago](https://www.eff.org/press/archives/2005/10/16), the [_majority_](https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots) of common printers [secretly embed information like their serial number and the time of printing into each printed page[^4]](https://www.eff.org/deeplinks/2017/06/printer-tracking-dots-back-news). And since so many of them are now ["smart"](https://www.theguardian.com/lifeandstyle/2021/sep/23/the-smart-toilet-era-is-here-are-you-ready-to-share-your-analprint-with-big-tech), they also connect to the internet, [which is _obviously_ great](https://www.ifitssmartitsvulnerable.com/)!
+As pointed out by NGOs like [the EFF years ago](https://www.eff.org/press/archives/2005/10/16), the [_majority_](https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots) of common printers [secretly embed information like their serial number and the time of printing into each printed page](https://www.eff.org/deeplinks/2017/06/printer-tracking-dots-back-news)[^4]. And since so many of them are now ["smart"](https://www.theguardian.com/lifeandstyle/2021/sep/23/the-smart-toilet-era-is-here-are-you-ready-to-share-your-analprint-with-big-tech), they also connect to the internet, [which is _obviously_ great](https://www.ifitssmartitsvulnerable.com/)!
 
 Yup, so if you were just about to print that `death_threat_letter.pdf`, you might wanna reconsider that 🙊!
 
@@ -146,6 +146,6 @@ Thanks a lot for reading, and if you've stuck til the end, I'd be really happy i
 
 [^2]: Although my script currently requires Python 3, I might rewrite it to be compatible with Python 2 that comes as standard on Macs. EDIT: Apparently, [macOS stopped coming with Python 2 from this year](https://docs.python.org/3/using/mac.html), so I guess less work for me. 
 
-[^3]: Interestinglty, the data files weren't kept for a continuous range of latest printed files, as I would've assumed, but there were some gaps in between — I might explore that in the future.
+[^3]: Interestingly, the data files weren't kept for a continuous range of latest printed files, as I would've assumed, but there were some gaps in between — I might explore that in the future.
 
 [^4]: Thanks to this, "bad guys" like whistleblowers can ["thankfully" end up in jail](https://www.bbc.com/future/article/20170607-why-printers-add-secret-tracking-dots)!
