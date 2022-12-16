@@ -32,7 +32,8 @@ If Hugo fails to build the site and displays a warning message, try cleaning Hug
 
 ## TODOs
 - [ ] make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)? EDIT: This seems to be already done [here](https://codeberg.org/Codeberg-CI/examples) so:
-- [ ] Use a Codeberg-CI (Woodpecker) pipeline for deployment, first have a look at [this](https://codeberg.org/Codeberg-CI/examples/src/branch/main/Hugo/hugo.yml) and [this](https://dminca.codeberg.page/posts/moved-to-codeberg-pages/)
+- [x] Use a Codeberg-CI (Woodpecker) pipeline for deployment, first have a look at [this](https://codeberg.org/Codeberg-CI/examples/src/branch/main/Hugo/hugo.yml) and [this](https://dminca.codeberg.page/posts/moved-to-codeberg-pages/)
+- [ ] Document the woodpecker CI config and how this works.
 - [ ] Find out if I can redirect to adam.sr from www.adam.sr as was the case with GitHub pages. (maybe adding www.adam.sr to `.domains` would help?)
 
 ## Acknowledgements
