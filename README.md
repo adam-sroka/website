@@ -10,7 +10,7 @@ To see your changes, first check that Hugo is installed by running `hugo version
 ## Deploying
 
 <!--
-OLD DEPLOYMENT INSTRUCTIONS
+OLD DEPLOYMENT INSTRUCTIONS - DELETE THIS
 ### GitHub Pages
 _currently deploys to adamsroka.io_
 
