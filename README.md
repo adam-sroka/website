@@ -20,6 +20,8 @@ _To deploy using GitHub pages, simply push the changes into the `main` branch â€
 To build the site and deploy it using GitHub pages, run `hugo` and commit and push the changes. With the current settings in the `config.toml` file, this builds the static site inside the `docs` subdirectory, which is set as the source for GitHub pages deployment.
 -->
 
+TODO: This is outdated, deployment now runs automatically after pushing to Codeberg using Codeberg CI, so rewrite this.
+
 To build the site and deploy it to [adam.sr](https://adam.sr) using [Codeberg pages](https://codeberg.page), make sure that your working directory is the directory of this git repository, i.e. `website`, and run the `deploy.sh` script:
 
 ```bash
