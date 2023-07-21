@@ -35,7 +35,8 @@ pipeline:
       - cd website || exit
       - git remote set-url origin https://$CODEBERG_TOKEN@codeberg.org/adam/website.git
       - git add --all
-      - git commit -m "Woodpecker CI deploy ${CI_COMMIT_SHA}"
+      # Only commit if there is actually something to commit
+      - git diff-index --quiet HEAD || git commit -m "Woodpecker CI deploy ${CI_COMMIT_SHA}"
       - git push -u origin pages
     when:
       # run when new push into main branch (with hugo site source)
