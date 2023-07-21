@@ -1,3 +1,8 @@
+# Do not run the pipeline on the pages branch
+when:
+  branch:
+    exclude: pages
+
 pipeline:
   # Build hugo static files
   build:
