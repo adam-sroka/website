@@ -35,4 +35,4 @@ pipeline:
     when:
       # run when new push into main branch (with hugo site source)
       event: push
-      branh: main
+      branch: main
