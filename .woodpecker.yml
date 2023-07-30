@@ -10,7 +10,7 @@ pipeline:
     commands:
       - hugo mod clean
       - hugo mod get -u
-      - hugo --minify --destination build
+      - hugo --minify --destination build --environment production
     when:
       event: [ pull_request, push ]
 
