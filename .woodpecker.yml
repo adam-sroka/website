@@ -25,9 +25,9 @@ pipeline:
       - git config --global user.email "woodpecker-bot@no-reply.eu"
       - git config --global user.name "Woodpecker CI"
       # - git clone -b pages https://$CODEBERG_TOKEN@codeberg.org/$CI_REPO.git $CI_REPO_NAME
-      # Clone the pages branch (with static site output) into website dir
+      # Clone the `pages` branch (with static site output) into a new directory `website`
       - git clone -b pages https://codeberg.org/adam/website.git
-      # Copy build step output to static site output folder
+      # Copy the output of hugo build to the `website` directory with the cloned `pages` branch
       - cp -a build/* website/
       # Needed for custom domains
       # - cp .domains $CI_REPO_NAME || true # Ignore if it doesn't exist
