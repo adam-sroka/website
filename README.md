@@ -35,7 +35,8 @@ This builds the Hugo site in a `build` directory and force pushes the built file
 If Hugo fails to build the site and displays a warning message, try cleaning Hugo module cache by `hugo mod clean` and refetch the Congo module by `hugo mod get -u`.
 
 ## TODOs
-- [ ] make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)? EDIT: This seems to be already done [here](https://codeberg.org/Codeberg-CI/examples) so:
+- [ ] Install and use https://git-lfs.com/ for images
+- [ ] Make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)? EDIT: This seems to be already done [here](https://codeberg.org/Codeberg-CI/examples) so:
 - [x] Use a Codeberg-CI (Woodpecker) pipeline for deployment, first have a look at [this](https://codeberg.org/Codeberg-CI/examples/src/branch/main/Hugo/hugo.yml) and [this](https://dminca.codeberg.page/posts/moved-to-codeberg-pages/)
 - [ ] Document the woodpecker CI config and how this works (and remove `bash.sh`)
 - [ ] Find out if I can redirect to adam.sr from www.adam.sr as was the case with GitHub pages. (maybe adding www.adam.sr to `.domains` would help?)
