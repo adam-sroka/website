@@ -41,5 +41,5 @@ Ugh, it got a little cheesy, and I know me having a blog won't solve any of the 
 
 When it comes to the actual things I wanna write about in the near future, I'm thinking of writing some of my travel stories, and perhaps some thoughts on a variety of topics that I find interesting and have had blog ideas sitting dormant in my todo app for years. Plus maybe the occasional tech post.
 
-If you've realised how cleverly I've avoided all accountability by being super vague with the topics and not setting any specific writing goals, AND you'd still be interested to hear more, I'd really encourage you to **subscribe to updates via email [here](https://buttondown.email/as) or via RSS [here](/index.xml)**. I'm genuinly going to be very happy if you do so 😊.
+If you've realised how cleverly I've avoided all accountability by being super vague with the topics and not setting any specific writing goals, AND you'd still be interested to hear more, I'd really encourage you to **subscribe to updates [here](/newsletter)**. I'm genuinly going to be very happy if you do so 😊.
 

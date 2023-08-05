@@ -139,7 +139,7 @@ Yup, so if you were just about to print that `death_threat_letter.pdf`, you migh
 
 All jokes aside, the conclusion is that you shouldn't worry about printing your normal documents, but might want to think twice with more sensitive stuff like cryptocurrency paper wallets, which was the starting point of [the original video](https://youtu.be/eAgfeVNKdoo) that inspired this blog.
 
-Thanks a lot for reading, and if you've stuck til the end, I'd be really happy if you [**subscribe to my blog**](https://buttondown.email/as), or [get in touch with me](mailto:hi@adam.sr)! Have a good one!
+Thanks a lot for reading, and if you've stuck til the end, I'd be really happy if you [**subscribe to my blog**](/newsletter), or [get in touch with me](mailto:hi@adam.sr)! Have a good one!
 
 
 [^1]: You _won't_ see the characters as you type.
