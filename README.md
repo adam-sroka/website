@@ -16,18 +16,18 @@ To build the site and deploy it to [adam.sr](https://adam.sr) using [Codeberg pa
 
 ## Debugging
 
-If Hugo fails to build the site and displays a warning message, try cleaning Hugo module cache by `hugo mod clean` and refetch the Congo module by `hugo mod get -u`.
+If Hugo fails to build the site and displays a warning message, try cleaning Hugo module cache by `hugo mod clean` and refetch the Congo module by `hugo mod get -u`. Also check out [Congo repository](https://github.com/jpanther/congo) for Issues/help.
 
 ## TODOs
 
-- [ ] Make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)? EDIT: This seems to be already done [here](https://codeberg.org/Codeberg-CI/examples) so:
-- [x] Use a Codeberg-CI (Woodpecker) pipeline for deployment, first have a look at [this](https://codeberg.org/Codeberg-CI/examples/src/branch/main/Hugo/hugo.yml) and [this](https://dminca.codeberg.page/posts/moved-to-codeberg-pages/)
-- [ ] Document the woodpecker CI config and how this works (and remove the old `deploy.sh` script)
-- [ ] Find out if I can redirect to adam.sr from www.adam.sr as was the case with GitHub pages. (maybe adding www.adam.sr to `.domains` would help?)
+- [ ] Document the woodpecker CI config and how this works (and remove the old `deploy.sh` script), see #1 for docs/past reference, and also [this](https://codeberg.org/Codeberg-CI/examples/src/branch/main/Hugo/hugo.yml), and [this](https://dminca.codeberg.page/posts/moved-to-codeberg-pages/).
+- [ ] Make a tutorial/blog about deploying Hugo to Codeberg pages, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)? EDIT: This seems to be already done [here](https://codeberg.org/Codeberg-CI/examples).
+- [ ] Find out if I can redirect to adam.sr from www.adam.sr as was the case with GitHub pages (maybe adding www.adam.sr to `.domains` would help?).
+- [ ] Find out how can I use custom short URLs for my blog posts using Congo - i.e. to remove the `/blog` part of the url and only have URLs like `adam.sr/printing`. Probably open an issue/discussion in Congo GitHub repo.
 
 ## Acknowledgements
 
-The website is based on the [Congo](https://git.io/hugo-congo/) Hugo theme.
+The website is based on the [Congo](https://git.io/hugo-congo) Hugo theme.
 
 ## License
 
