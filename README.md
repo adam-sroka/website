@@ -7,23 +7,19 @@ Hey 👋, welcome to the repo of my personal website built with [Hugo](https://g
 Feel free to poke around or get in touch 😊.
 
 ## Running Locally
+
 To see your changes, first check that Hugo is installed by running `hugo version`, and then start the Hugo server with `hugo server -D` (`-D` enables drafts), then go to the shown localhost link (which has live reload!). For further documentation, refer [here](https://gohugo.io/getting-started/quick-start).
 
 ## Deploying
 
-TODO: This is outdated, deployment now runs automatically after pushing to Codeberg using Codeberg CI, so rewrite this.
+To build the site and deploy it to [adam.sr](https://adam.sr) using [Codeberg pages](https://codeberg.page), commit your changes in the `main` branch and push to Codeberg. This will run the Woodpecker CI pipelines defined in [.woodpecker.yml](./.woodpecker.yml) using Codeberg CI, which builds the Hugo website and pushes it to the `pages` branch of this repository, where Codeberg hosts the static site from.
 
-To build the site and deploy it to [adam.sr](https://adam.sr) using [Codeberg pages](https://codeberg.page), make sure that your working directory is the directory of this git repository, i.e. `website`, and run the `deploy.sh` script:
-
-```bash
-bash deploy.sh
-```
-
-This builds the Hugo site in a `build` directory and force pushes the built files of the static site to the `pages` branch of this repository, where Codeberg hosts the static site from. It might take a couple of minutes for Codeberg to update the site.
+## Debugging
 
 If Hugo fails to build the site and displays a warning message, try cleaning Hugo module cache by `hugo mod clean` and refetch the Congo module by `hugo mod get -u`.
 
 ## TODOs
+
 - [ ] Make a tutorial and update the Codeberg docs about Hugo deployment, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)? EDIT: This seems to be already done [here](https://codeberg.org/Codeberg-CI/examples) so:
 - [x] Use a Codeberg-CI (Woodpecker) pipeline for deployment, first have a look at [this](https://codeberg.org/Codeberg-CI/examples/src/branch/main/Hugo/hugo.yml) and [this](https://dminca.codeberg.page/posts/moved-to-codeberg-pages/)
 - [ ] Document the woodpecker CI config and how this works (and remove `bash.sh`)
