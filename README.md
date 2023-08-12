@@ -27,7 +27,7 @@ If Hugo fails to build the site and displays a warning message, try cleaning Hug
 
 ## Acknowledgements
 
-The website is based on the [Congo](https://git.io/hugo-congo) Hugo theme.
+The website is based on the [Congo](https://git.io/hugo-congo) Hugo theme, check it out!
 
 ## License
 
