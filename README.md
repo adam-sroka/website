@@ -8,7 +8,7 @@ Feel free to poke around or get in touch 😊.
 
 ## Running Locally
 
-To see your changes, first check that Hugo is installed by running `hugo version`, and then start the Hugo server with `hugo server -D` (`-D` enables drafts), then go to the shown localhost link (which has live reload!). For further documentation, refer [here](https://gohugo.io/getting-started/quick-start).
+To see your changes, first check that Hugo is installed by running `hugo version`, and then start the Hugo server with `hugo server -D` (`-D` enables drafts), then go to the shown localhost link (which has live reload!). Refer [here](https://gohugo.io/getting-started/quick-start) for Hugo documentation.
 
 ## Deploying
 
