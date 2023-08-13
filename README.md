@@ -1,6 +1,6 @@
 # Adam's Website
 
-[![Build pipeline](https://ci.codeberg.org/api/badges/7891/status.svg)](https://docs.codeberg.org/ci/) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
+[![Build pipeline](https://ci.codeberg.org/api/badges/7891/status.svg)](https://ci.codeberg.org/repos/7891) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 
 Hey 👋, welcome to the repo of my personal website built with [Hugo](https://gohugo.io)!
 
