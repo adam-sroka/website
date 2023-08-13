@@ -12,7 +12,7 @@ To see your changes, first check that Hugo is installed by running `hugo version
 
 ## Deploying
 
-To build the site and deploy it to [adam.sr](https://adam.sr) using [Codeberg pages](https://codeberg.page), commit your changes in the `main` branch and push to Codeberg. This will run the Woodpecker CI pipelines defined in [.woodpecker.yml](./.woodpecker.yml) using Codeberg CI, which builds the Hugo website and pushes it to the `pages` branch of this repository, where Codeberg hosts the static site from.
+To build the site and deploy it to [adam.sr](https://adam.sr) using [Codeberg pages](https://codeberg.page), commit your changes in the `main` branch and push to Codeberg. This will run the [Woodpecker CI](https://woodpecker-ci.org/) pipelines defined in [.woodpecker.yml](./.woodpecker.yml) using [Codeberg CI](https://docs.codeberg.org/ci/), which builds the Hugo website and pushes it to the `pages` branch of this repository, where Codeberg hosts the static site from. The Codeberg CI pipeline runs can be inspected [here](https://ci.codeberg.org/repos/7891).
 
 ## Debugging
 
