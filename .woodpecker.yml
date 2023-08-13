@@ -3,7 +3,7 @@ when:
   branch:
     exclude: pages
 
-pipeline:
+steps:
   # Build hugo static files
   build:
     image: klakegg/hugo:0.101.0-ext-alpine-onbuild
