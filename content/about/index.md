@@ -21,7 +21,7 @@ I've slept under the stars on beaches, on yachts, in forests hanging in hammocks
 
 I've volunteered in orphanages, [student](https://www.hackbridge.io/) [societies](https://unimak.sk/), participated in workshops spanning from [first aid](https://www.icrc.org/) to [sailing](https://www.rya.org.uk/), and tried many sports, from tennis, through ball hockey, to MMA.
 
-I've studied at [great](https://ib.gjh.sk/en/) [places](http://www.eng.cam.ac.uk/) but also at [not-so-great places](http://notgonnashamesuch.place/s), and learned that I'll never stop learning, but, above all, gotten to know some genuinely wonderful people.
+I've studied at [great](https://ib.gjh.sk/en/) [places](http://www.eng.cam.ac.uk/) and also at [not-so-great places](http://notgonnashamesuch.place/s), and learned that I'll never stop learning, but, above all, gotten to know some genuinely wonderful people.
 
 I've worked at [hot startups](https://exponea.com), [small NGOs](https://centreforglobalequality.org/), and even [large corporations](https://www.tomra.com/en), focusing on various areas of what is usually referred to as "tech". I'm currently working as a Software Engineer in London, learning a lot about different aspects of this field.
 
