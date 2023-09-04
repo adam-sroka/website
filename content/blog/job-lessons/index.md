@@ -32,6 +32,16 @@ In essence, I think the goal is to strike a balance between [how much you trade 
 ## 2. Time becomes scarcer
 _So spend it efficiently_
 
+As I explained in the previous section, you will _generally_ have less time after you start a job. If you're coming from an [academic](https://www.quora.com/Is-going-through-the-International-Baccalaureate-IB-program-worth-it) [background](https://www.thestudentroom.co.uk/showthread.php?t=445866) like I do, this might seem hard to believe - I was personally very much looking forward to start working full time after being a student, so that I would have _more_ free time, and I was both right and wrong. The truth is, the fundamental nature of what I consider _free time_ has changed, as it is quite different now that I'm working full time compared to when I was a student.
+
+During my studies, I've had periods of time when I worked (i.e. studied) _waaay_ more than I work right now. During exam seasons, or when busy with assignments, I would spend days being locked inside my room working from dawn to dusk, and longer. Now, there are times when I push to ship something and I stay at work from 7am to 9pm, but that has been quite rare, and I generally enjoy very nice working hours of about 9 to 6ish. The interesting thing is that despite this, I still feel that my time has become _scarcer_. Why is that?
+
+I think the answer to that lies in _consistency_. The main change now is how little time I _consistently_ have outside of work, day after day, week after week. Previously there were always more-less free times after busy times, but now the base load is constantly quite high. Not just that there are no 3-month long vacations no more, but that where before I could pretty much schedule something almost at any time, nowadays any leisure activity is limited to: 1. the mornings, 2. the evenings, or 3. the weekend.
+
+{{<alert "no_icon">}} Quick sidenote - I don't even work crazy hours! I have friends ([mostly in finance](https://www.theguardian.com/business/2021/mar/18/group-of-junior-bankers-at-goldman-sachs-claim-inhumane-work-conditions)) who regularly work 9am to 3*am*, compared to which my usual 9-6:30 seems like nothing. However, my working hours still mean that I usually leave home at around 8:30, and come home around 7pm, and this is while having a super short commute of only around 20min cycle)! {{</alert>}}
+
+These three consistent, well defined blocks of time are really not that much. Considering I'm no longer a reckless student and want to care about my health (TODO link book??), I try sleep at least 8 hours, and exercise about an hour a day, which usually gives me about 3 (TODO edit) hours of free time a day on working day (TODO include calculation as footnote). However, when I add the time for hygiene, cooking and eating, this leaves me with about 2 hours of free time a day. That is surprisingly little time.
+
 [^1]: It has actually been more than 6 months now - I'm beginning to think these delays seem to be such an integral part of this blog by now that I should rebrand to something like TODO.
 
 WIP 🚧
