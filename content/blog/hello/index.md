@@ -1,6 +1,7 @@
 ---
 title: "Hello World!"
 date: 2022-11-02
+url: /hello
 # description: "TODO."
 # TODO: find out what the description field does
 summary: "It has finally happened."

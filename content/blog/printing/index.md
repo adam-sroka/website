@@ -1,5 +1,6 @@
 ---
 title: "MacOS Stores a Copy of Everything You Print Forever - Really?"
+url: /printing
 date: 2022-11-17
 summary: "An exploration into printing and recovering previously printed files on MacOS."
 # TODO: description?
