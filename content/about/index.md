@@ -23,7 +23,7 @@ I've volunteered in orphanages, [student](https://www.hackbridge.io/) [societies
 
 I've studied at [great](https://ib.gjh.sk/en/) [places](http://www.eng.cam.ac.uk/) and also at [not-so-great places](http://notgonnashamesuch.place/s), and learned that I'll never stop learning, but, above all, gotten to know some genuinely wonderful people.
 
-I've worked at [hot startups](https://exponea.com), [small NGOs](https://centreforglobalequality.org/), and even [large corporations](https://www.tomra.com/en), focusing on various areas of what is usually referred to as "tech". I'm currently working as a Software Engineer in London, learning a lot about different aspects of this field.
+I've worked at [hot startups](https://exponea.com), [small NGOs](https://centreforglobalequality.org/), and even [large corporations](https://www.tomra.com/en), focusing on various areas of what is usually referred to as "tech". I'm currently [working](/job) as a Software Engineer in London, learning a lot about different aspects of this field.
 
 I'm passionate about too many things to list here, and I'm always happy to get in touch:
 

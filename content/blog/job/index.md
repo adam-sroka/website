@@ -1,6 +1,6 @@
 ---
 title: "5 Lessons after 5 Months of Full-time Job"
-url: /job-lessons
+url: /job
 # TODO date
 date: 2023-09-03
 summary: "TODO"
