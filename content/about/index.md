@@ -11,7 +11,7 @@ showTableOfContents: false
 <!-- TODO: Update with links as I write blog posts -->
 
 
-Hi, my name is Adam, and in essence, I'm a keen participant in humanity 🌎🙋‍♂️.
+Hi, I'm Adam, and in essence, I'm a keen participant in humanity 🌎🙋‍♂️.
 
 I'm incredibly grateful for all the opportunities to explore and learn things about the World that I've already had, and for all the amazing people from all walks of life that I've met:
 
