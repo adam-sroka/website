@@ -20,5 +20,7 @@ I've decided to split it up and publish this as five separate posts because I do
 
 ## [Lesson 3: You are not Your Job](/notjob)
 
+## [Lesson 4: There are Things other than Work](/notwork)
+
 
 [^1]: It has actually been more than 7 months now — I'm beginning to think these delays seem to be such an integral part of this blog by now that I should rebrand to something like "Words with a Delay". [Speed](https://jsomers.net/blog/speed-matters) is tricky.

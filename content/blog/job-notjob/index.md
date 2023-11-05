@@ -45,7 +45,8 @@ Make sure you get good grades in your primary school, in order to get to a good 
 To sum up, my time at my job so far has taught me how important it is to set and maintain clear boundaries, and to consciously try to worry less about your job. This has resulted in me really looking forward to going to the office, to solving interesting problems, to learning and asking more questions (since I don't worry about sounding dumb!), and also improved my free time ☀️🌈.
 
 {{<alert   "no_icon">}}Read the next part of the [series](/job):
-**TODO**
+
+[Job Lesson 4: There are Things other than Work](/notwork)
 {{</alert>}}
 
 [^4]: An important part of this is cultivating the freedom necessary to achieve a position in which you can have this mindset. As mentioned in the [first part](/expensive) of this series, having [good money habits](https://www.ramseysolutions.com/dave-ramsey-7-baby-steps), like having six-months of your expenses in cash available at all times really helps. Obviously, I'm aware that we're all dealt different cards, and it's a privilege to be in this situation, but I'd encourage everyone to try to get there, having the time to [interview with multiple companies when job hunting is better](https://haseebq.com/how-to-break-into-tech-job-hunting-and-interviews/#part1) than having to rush it.
