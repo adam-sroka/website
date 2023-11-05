@@ -34,7 +34,7 @@ Overall, I really think the [scarce free time](https://waitbutwhy.com/2014/05/li
 
 {{<alert   "no_icon">}}Read the next part of the [series](/job):
 
-[Job Lesson 3: You are not Your Job](/notjob)
+[Lesson 3: You are not Your Job](/notjob)
 {{</alert>}}
 
 

@@ -24,5 +24,5 @@ In essence, I think the goal is to strike a balance between [how much you trade 
 
 {{<alert   "no_icon">}}Read the next part of the [series](/job):
 
-[Job Lesson 2: Time Becomes Scarcer](/scarce)
+[Lesson 2: Time Becomes Scarcer](/scarce)
 {{</alert>}}

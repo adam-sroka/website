@@ -27,7 +27,8 @@ Just recently, I've started scheduling "doing nothing" for my Sunday evenings, a
 In essence, doing things other than work is fun, beneficial for you (both mentally and physically), and in many cases also beneficial for others. As a favourite sentence of mine says, let's all contribute to a world where [we're passionate about building and creating things in a self-motivated and self-directed way](https://moxie.org/) 😊!
 
 {{<alert   "no_icon">}}Read the next part of the [series](/job):
-**TODO**
+
+[Lesson 5: You Start Losing Options](/options)
 {{</alert>}}
 
 [^6]: This will, of course, be very personal, but to give an idea, I'm currently doing some [courses](https://www.executeprogram.com/), reading some [books](https://pragprog.com/titles/tpp20/), and trying to [remember](https://apps.ankiweb.net/) at least some of it 🙃. <!-- TODO: link my anki deck once I publish it -->
