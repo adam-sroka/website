@@ -12,7 +12,7 @@ Over this time, I've been writing down some thoughts about being employed full t
 
 Before we start, a short disclaimer - this blog will be a general reflection on working full time, and not specifically as a Software Engineer (there is a [plethora](https://www.learninpublic.org/) [of](https://bigmachine.io/products/the-imposters-handbook/) [great](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/) [resources](https://mukulrathi.com/facebook-internship-advice/) if you're looking for that). Having said that, let's dive in!
 
-I've decided to split it up and publish this as 5 separate posts, because almost no one likes very long blog posts:
+I've decided to split it up and publish this as five separate posts because I don't like long blog posts — here they are:
 
 ## [Lesson 1: Everything Becomes More Expensive](/expensive)
 
