@@ -37,7 +37,6 @@ Overall, I really think the [scarce free time](https://waitbutwhy.com/2014/05/li
 [Lesson 3: You are not Your Job](/notjob)
 {{</alert>}}
 
-
 [^2]: 24 hours minus 8 for sleep, minus 10.5 for work (8:30 to 19:00), minus 1 for exercising gives 4.5.
 
 [^3]: Doing [First Things First](https://www.youtube.com/watch?v=zV3gMTOEWt8) is probably the personal productivity principle I've found to work the most for me, so I really recommend it. My consistent observation is that _the probability of actually doing something is inveresely proportional to the time in the day when I schedule it_ — if I decide to do something the first thing in the morning, I'll probably do it, but if I plan it for the evening, I very likely won't!
