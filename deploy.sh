@@ -2,6 +2,7 @@
 
 build_directory="build"
 build_branch="pages"
+latest_commit_hash=$(git rev-parse HEAD)
 
 # delete previous site built, if it exists
 if [ -d "$build_directory" ]; then
@@ -13,7 +14,7 @@ fi
 remote_origin_url=$(git config --get remote.origin.url)
 
 # generate hugo static site to `build` directory
-hugo --minify --destination $build_directory
+hugo --minify --destination $build_directory --environment production
 
 # initialize a git repo in build_directory and checkout to build_branch
 cd $build_directory || exit
@@ -26,6 +27,6 @@ echo ".DS_Store" > .gitignore
 git add -- . ':!.gitignore'
 
 # commit static site files and force push to build_branch of the origin
-git commit -m "build: update static site"
+git commit -m "build: update static site with $latest_commit_hash"
 git remote add origin "$remote_origin_url"
 git push --force origin $build_branch
