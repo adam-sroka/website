@@ -6,6 +6,8 @@ showdate: false
 showPagination: false
 showReadingTime: false
 showTableOfContents: false
+# redirect adam.sr/oka to adam.sr/about
+aliases: "oka"
 ---
 
 <!-- TODO: Update with links as I write blog posts -->
