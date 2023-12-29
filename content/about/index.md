@@ -34,4 +34,4 @@ I'm passionate about too many things to list here, and I'm always happy to get i
 
 - [Email: hi@adam.sr](mailto:hi@adam.sr)
 - [Matrix: @sroka:matrix.org](https://matrix.to/#/@sroka:matrix.org)
-- [Mastodon: @adamsroka@mstdn.io](https://mstdn.io/@adamsroka)
+<!-- [Mastodon: @adamsroka@mstdn.io](https://mstdn.io/@adamsroka) -->
