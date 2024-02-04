@@ -1,6 +1,6 @@
 # Hugo docker image
 image: klakegg/hugo:0.101.0-ext-alpine-onbuild
 # Build command
-command: hugo mod clean && hugo mod get -u && hugo --minify --destination build --environment production
+command: hugo mod clean && hugo mod get github.com/jpanther/congo/v2@v2.7.4 && hugo --minify --destination build --environment production
 # Build output directory to deploy
 public: build
