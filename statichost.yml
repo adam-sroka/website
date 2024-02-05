@@ -4,3 +4,7 @@ image: hugomods/hugo:go-git-0.122.0
 command: go version && hugo version && hugo mod clean && hugo mod get github.com/jpanther/congo/v2@v2.8.0 && hugo --minify --destination build --environment production
 # Build output directory to deploy
 public: build
+# Custom domain
+domains:
+  - adam.sr
+  - www.adam.sr
