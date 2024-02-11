@@ -4,32 +4,34 @@
 
 [![statichost.eu status](https://builder.statichost.eu/a-s/status.svg)](https://builder.statichost.eu/a-s/)
 
-Hey 👋, welcome to the repo of my personal website built with [Hugo](https://gohugo.io)!
-
-Feel free to poke around or get in touch 😊.
+Hey 👋, welcome to the repo of my personal website built with [Hugo](https://gohugo.io)! It uses the [Congo](https://git.io/hugo-congo) Hugo theme and is deployed on [statichost.eu](https://statichost.eu) 🇪🇺.
 
 ## Running Locally
 
-To see your changes, first check that Hugo is installed by running `hugo version`, and then start the Hugo server with `hugo server -D` (`-D` enables drafts), then go to the shown localhost link (which has live reload!). Refer [here](https://gohugo.io/getting-started/quick-start) for more Hugo documentation.
+To see your changes, first check that Hugo is installed by running `hugo version`, and then start the Hugo server with `hugo server` (you can also add the `-D` flag to enable drafts, but I never seem to be using them), then go to the shown localhost link (which has live reload!). Refer [here](https://gohugo.io/getting-started/quick-start) for more Hugo documentation.
 
 ## Deploying
 
-To build the site and deploy it to [adam.sr](https://adam.sr) using [Codeberg pages](https://codeberg.page), commit your changes in the `main` branch and push to Codeberg. This will run the [Woodpecker CI](https://woodpecker-ci.org/) pipelines defined in [.woodpecker.yml](./.woodpecker.yml) using [Codeberg CI](https://docs.codeberg.org/ci/), which builds the Hugo website and pushes it to the `pages` branch of this repository, where Codeberg hosts the static site from. The Codeberg CI pipeline runs can be inspected [here](https://ci.codeberg.org/repos/7891).
+To build the site and deploy it to [adam.sr](https://adam.sr) using [statichost.eu](https://statichost.eu), simply push the changes to the main branch of the Codeberg repo! Behind the scenes, there is a [_forgejo_ webhook](https://forgejo.org/docs/latest/user/webhooks/#example) configured in the [settings of this repo](https://codeberg.org/adam/website/settings/hooks) that [notifies the statichost builder](https://www.statichost.eu/docs/webhooks/) to automatically build and deploy the site!
+
+Statichost uses the build config specified in the [statichost.yml](/statichost.yml) file. In essence, statichost takes a Docker image (note that Congo requires an _extended_ Hugo version along with go and git, see [here](https://hugomods.com/docs/docker/#image-tags)), a build command, and an output directory, and runs the build command in that docker image, and then deploys the static files from the build directory.
+
+Note that in my case, since I use [Congo as a Hugo module](https://jpanther.github.io/congo/docs/installation/#install-using-hugo), I go for a full clean of the hugo module cache in my build command using [`hugo mod clean`](https://gohugo.io/commands/hugo_mod_clean/), and then fetch the last version of Congo which I tested using [`hugo mod get ${url-of-congo}@${specific-version-of-congo}`](https://gohugo.io/commands/hugo_mod_get/).
 
 ## Debugging
 
-If Hugo fails to build the site and displays a warning message, try cleaning Hugo module cache by `hugo mod clean` and refetch the Congo module by `hugo mod get -u`. Also check out [Congo repository](https://github.com/jpanther/congo) for Issues/help.
+If Hugo fails to build the site and displays a warning message, try cleaning Hugo module cache by `hugo mod clean` and refetch the Congo module by `hugo mod get ${url-of-congo}@${specific-version-of-congo}`. Also check out [Congo repository](https://github.com/jpanther/congo) for Issues/help.
+
+## Upgrading
+
+To upgrade the version of Congo, see the docs [here](https://jpanther.github.io/congo/docs/installation/#update-using-hugo). Essentially, run `hugo mod get -u` and check the website for breakage (I know, lack of tests). Make sure to read the [release notes of Congo](https://github.com/jpanther/congo/releases) for announcements and breaking changes.
 
 ## TODOs
 
-- [ ] Document the woodpecker CI config and how this works (and remove the old `deploy.sh` script), see #1 for docs/past reference, and also [this](https://codeberg.org/Codeberg-CI/examples/src/branch/main/Hugo/hugo.yml), and [this](https://dminca.codeberg.page/posts/moved-to-codeberg-pages/).
-- [ ] Make a tutorial/blog about deploying Hugo to Codeberg pages, see [this issue](https://codeberg.org/Codeberg/Documentation/issues/27)? EDIT: This seems to be already done [here](https://codeberg.org/Codeberg-CI/examples).
-- [ ] Find out if I can redirect to adam.sr from www.adam.sr as was the case with GitHub pages (maybe adding www.adam.sr to `.domains` would help?).
-- [ ] Find out how can I use custom short URLs for my blog posts using Congo - i.e. to remove the `/blog` part of the url and only have URLs like `adam.sr/printing`. Probably open an issue/discussion in Congo GitHub repo.
-
-## Acknowledgements
-
-The website is based on the [Congo](https://git.io/hugo-congo) Hugo theme, check it out!
+- [ ] Fix feature image in about page covering the title.
+- [ ] Add some CI tests to the website (e.g. check broken links), see [this](https://techteapot.com/posts/handy-hugo-website-test-scripts/) (also check out why the woodpecker CI is failing, maybe the [webhook](https://codeberg.org/adam/website/settings/hooks) is wrong?)
+- [ ] Make a tutorial/blog about deploying Hugo to statichost.eu and migrating from Codeberg pages
+- [x] Find out how can I use custom short URLs for my blog posts using Congo - i.e. to remove the `/blog` part of the url and only have URLs like `adam.sr/printing`. Probably open an issue/discussion in Congo GitHub repo.
 
 ## License
 
