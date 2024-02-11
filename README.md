@@ -31,7 +31,6 @@ To upgrade the version of Congo, see the docs [here](https://jpanther.github.io/
 - [ ] Fix feature image in about page covering the title.
 - [ ] Add some CI tests to the website (e.g. check broken links), see [this](https://techteapot.com/posts/handy-hugo-website-test-scripts/) (also check out why the woodpecker CI is failing, maybe the [webhook](https://codeberg.org/adam/website/settings/hooks) is wrong?)
 - [ ] Make a tutorial/blog about deploying Hugo to statichost.eu and migrating from Codeberg pages
-- [x] Find out how can I use custom short URLs for my blog posts using Congo - i.e. to remove the `/blog` part of the url and only have URLs like `adam.sr/printing`. Probably open an issue/discussion in Congo GitHub repo.
 
 ## License
 
