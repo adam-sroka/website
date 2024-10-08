@@ -24,7 +24,10 @@ If Hugo fails to build the site and displays a warning message, try cleaning Hug
 
 ## Upgrading
 
-To upgrade the version of Congo, see the docs [here](https://jpanther.github.io/congo/docs/installation/#update-using-hugo). Essentially, run `hugo mod get -u` and check the website for breakage (I know, lack of tests). Make sure to read the [release notes of Congo](https://github.com/jpanther/congo/releases) for announcements and breaking changes.
+To upgrade the version of Congo, see the docs [here](https://jpanther.github.io/congo/docs/installation/#update-using-hugo) and make sure to read the [release notes of Congo](https://github.com/jpanther/congo/releases) for announcements and breaking changes.
+
+Essentially, run `hugo mod get -u`, and then run the website and check it for breakage (I know, lack of tests). 
+Then, if everything looks good, update the new congo version in the statichost build command (`command: ...`) in the [statichost.yml](/statichost.yml) file. Lastly, commit everything and push!
 
 ## TODOs
 
