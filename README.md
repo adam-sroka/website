@@ -28,7 +28,6 @@ To upgrade the version of Congo, see the docs [here](https://jpanther.github.io/
 
 ## TODOs
 
-- [ ] Fix feature image in about page covering the title.
 - [ ] Add some CI tests to the website (e.g. check broken links), see [this](https://techteapot.com/posts/handy-hugo-website-test-scripts/) (also check out why the woodpecker CI is failing, maybe the [webhook](https://codeberg.org/adam/website/settings/hooks) is wrong?)
 - [ ] Make a tutorial/blog about deploying Hugo to statichost.eu and migrating from Codeberg pages
 
