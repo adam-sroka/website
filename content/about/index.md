@@ -19,7 +19,7 @@ I'm incredibly grateful for all the opportunities to explore and learn things ab
 
 I've traveled in almost everything from crammed Albanian busses to business-class flights, hitchhiked in strangers' cars, and sailed across seas in half-broken sailboats.
 
-I've slept under the stars on beaches, on yachts, in forests hanging in hammocks, shivered in bivvy bags in the Alps, but also enjoyed great food from Couchsurfing hosts.
+I've slept under the stars on beaches, [on yachts](/charter), in forests hanging in hammocks, shivered in bivvy bags in the Alps, but also enjoyed great food from Couchsurfing hosts.
 
 I've volunteered in orphanages, [student](https://www.hackbridge.io/) [societies](https://unimak.sk/), participated in workshops spanning from [first aid](https://www.icrc.org/) to [sailing](https://www.rya.org.uk/), and tried many sports, from tennis, through ball hockey, to MMA.
 
