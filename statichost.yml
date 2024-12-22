@@ -1,7 +1,7 @@
 # Extended Hugo docker image taken from https://hugomods.com/docs/docker/#image-tags
 image: hugomods/hugo:go-git-0.140.0
 # Build command
-command: go version && hugo version && hugo mod clean && hugo mod get github.com/jpanther/congo/v2@v2.9.0 && hugo --minify --destination build --environment production
+command: go version && hugo version && hugo mod clean && hugo mod get github.com/jpanther/congo/v2@v2.10.0 && hugo --minify --destination build --environment production
 # Build output directory to deploy
 public: build
 # Custom domains
