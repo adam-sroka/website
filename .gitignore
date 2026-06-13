@@ -2,5 +2,5 @@
 .vscode
 .hugo_build.lock
 
-build/
+public/
 /resources/_gen/

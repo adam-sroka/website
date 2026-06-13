@@ -2,4 +2,4 @@
 set -eu
 
 sh ./scripts/bootstrap.sh
-hugo --minify --destination build --environment production "$@"
+hugo --minify --environment production "$@"

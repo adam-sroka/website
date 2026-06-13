@@ -3,7 +3,7 @@ image: hugomods/hugo:go-git-0.146.0
 # Build command
 command: sh ./scripts/build.sh
 # Build output directory to deploy
-public: build
+public: public
 # Custom domains
 domains:
   # Primary domain
